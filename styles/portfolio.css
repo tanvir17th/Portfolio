@@ -225,3 +225,41 @@ textarea{
     border: 0;
     width: 100%;
 }
+.hide{
+    display: none;
+}
+@media screen and ( max-width:576px) {
+     .skill-container, .resume-container, .banner,.navtag, nav>ul, footer, .about-info-container{
+        flex-direction: column;
+    }
+    .banner, #what-description{
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], 
+textarea {
+    width: 70%;
+}
+.about{
+    padding: 20px;
+}
+.banner .propic{
+    width: 100%;
+}
+.btn-primary{
+    margin: 10px;
+}
+.ul{
+    gap: 5px;
+}
+.social-links {
+    padding-left: 110px ;
+}
+}
+
+
