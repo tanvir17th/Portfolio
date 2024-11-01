@@ -228,6 +228,9 @@ textarea{
 .hide{
     display: none;
 }
+.btn-primary:hover{
+    background-color: #b05718;
+}
 @media screen and ( max-width:576px) {
      .skill-container, .resume-container, .banner,.navtag, nav>ul, footer, .about-info-container{
         flex-direction: column;
